@@ -1,0 +1,26 @@
+.boxes {
+	width: 650px;
+	height: 650px;
+	
+}
+#hvr {
+	background-color: red;
+	opacity: 0.0;
+}
+#hvr:hover {
+	cursor: hand;
+}
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    border-radius:5px;
+    border:2px solid transparent;
+}
+input[type='checkbox']:hover {
+    -webkit-appearance:none;
+    width:25px;
+    height:25px;
+    border-radius:5px;
+    border:2px solid transparent;
+}
